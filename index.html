@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Form</title>
+    <script>
+        async function insertSale() {
+            const name = document.getElementById('name').value;
+
+            const response = await fetch('https://func-futurestage-slot1.azurewebsites.net/api/InsertSale?code=C-MepErtHXS_oIqef43eDqnKyqaohaIKsJcIHmnESzneAzFuRqFHBA%3D%3D', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name})
+            });
+
+            const result = await response.text();
+            alert(result);
+        }
+    </script>
+</head>
+<body>
+    <h1>Insert Sale</h1>
+    <form onsubmit="event.preventDefault(); insertSale();">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <button type="submit">Insert</button>
+    </form>
+</body>
+</html>
