@@ -1,6 +1,8 @@
 {
-  "routes": {
-    "route": "index.html",
-    "redirect": "maintenance.html"
-  }
+  "routes": [
+    {
+      "route": "index.html",
+      "redirect": "maintenance.html"
+    }
+  ]
 }
