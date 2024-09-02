@@ -1,10 +1,6 @@
 {
-  "routes":[
-    {
-      "route":"maintenance.html",
-      "redirect":"index.html",
-      "statusCode":"301"
-    }
-  ]
+  "routes": {
+    "route": "index.html",
+    "redirect": "maintenance.html"
+  }
 }
-   
