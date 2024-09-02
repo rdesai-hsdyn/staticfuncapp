@@ -3,7 +3,7 @@
     {
       "route": "index.html",
       "redirect": "maintenance.html",
-      "statusCode"=301
+      "statusCode"="301"
     }
   ]
 }
