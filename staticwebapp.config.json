@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "index.html",
-      "redirect":"maintenance.html",
+      "redirect":"index.html",
       "statusCode": 302
     }
   ]
