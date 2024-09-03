@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "maintenance.html",
-      "statusCode": "301"
+      "statusCode": 301
     }
   ]
 }
