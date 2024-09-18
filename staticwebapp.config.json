@@ -1,9 +1,9 @@
 {
-  "routes": [
-    {
-      "route": "/",
-      "redirect": "maintenance.html",
-      "statusCode": 302
-    }
-  ]
+    "routes":  [
+                   {
+                       "route":  "maintenance.html",
+                       "redirect":  "/",
+                       "statusCode":  302
+                   }
+               ]
 }
